@@ -1,0 +1,27 @@
+
+.table {
+  border-collapse: collapse;
+  color: #333;
+  border: 1px solid;
+}
+
+.table td, .table th {
+  padding: 6px;
+  border: 1px solid;
+}
+
+
+.table tr:nth-child(2n) {
+  background: #fafafa;
+}
+
+.table tbody tr:hover {
+  background: #f0f0f0;
+  cursor: pointer;
+  color: #000;
+}
+
+.table td:first-child, .table th:first-child {
+  text-align: center;
+}
+

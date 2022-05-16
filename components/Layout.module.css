@@ -1,0 +1,19 @@
+.container {
+  padding: 12px 32px;
+}
+
+.authInfo {
+  position: absolute;
+  display: inline-block;
+  overflow: hidden;
+  float: right;
+  right: 32px;
+  top: calc(18px + 12px);
+  line-height: 32px;
+}
+
+.authInfo button {
+  float: right;
+  display: inline-block;
+  margin-left: 12px;
+}

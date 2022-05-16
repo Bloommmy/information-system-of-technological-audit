@@ -1,0 +1,52 @@
+
+.shadow {
+  position: fixed;
+  background: rgba(0, 0, 0, .8);
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.popup {
+  width: 600px;
+  background: white;
+  margin: auto;
+  padding: 34px;
+  top: 50px;
+  margin-bottom: 100px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 34px;
+  right: 34px;
+  width: 2em;
+  height: 2em;
+  border-radius: 50px;
+  background: white;
+  border: 1px solid;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 1.9em;
+  color: #828282;
+  transition: color .2s;
+  cursor: pointer;
+}
+
+.closeButton::after {
+  content: '✕';
+  color: #333;
+}
+
+.closeButton:hover {
+  color: #000;
+}
+
+.title {
+  margin: 0 0 1em;
+}
